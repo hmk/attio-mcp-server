@@ -1,5 +1,7 @@
 # attio-mcp-server
 
+[![smithery badge](https://smithery.ai/badge/@hmk/attio-mcp-server)](https://smithery.ai/server/@hmk/attio-mcp-server)
+
 This is an MCP server for [Attio](https://attio.com/), the AI-native CRM. It allows mcp clients (like Claude) to connect to the Attio API.
 
 #### Current Capabilities
@@ -33,6 +35,15 @@ This is expected to be a *bearer token* which means you can get one through the 
   }
 }
 ```
+
+### Installing via Smithery
+
+To install Attio MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@hmk/attio-mcp-server):
+
+```bash
+npx -y @smithery/cli install @hmk/attio-mcp-server --client claude
+```
+
 ## Development
 
 ### Prerequisites
